@@ -56,7 +56,7 @@ module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
       );
       const bb = aa.data;
       const shortUrl = await tinyurl.shorten(bb.result);
-      const MSG = `[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵`;
+      const MSG = `[🤍] 𝚂𝚝𝚊𝚢 𝚠𝚒𝚝𝚑 𝙼𝚞𝚗 𝙱𝚘𝚝`;
       let ex;
       let cp;
       if (bb.result.includes(".jpg")) {
