@@ -21,7 +21,7 @@ module.exports.languages = {
         "removedAdmin": '[Admin] Đã gỡ bỏ %1 người điều hành bot:\n\n%2'
     },
     "en": {
-        "listAdmin": '★ 𝘛𝘢𝘯𝘷𝘪𝘳𝘉𝘰𝘵 𝘈𝘥𝘮𝘪𝘯 𝘓𝘪𝘴𝘵 ★\n\n%1',
+        "listAdmin": '★ 𝙼𝚞𝚗 𝚊𝚍𝚖𝚒𝚗 𝚋𝚘𝚝-𝚕𝚒𝚜𝚝 ★\n\n%1',
         "notHavePermssion": 'বেয়াদবি কেন ছোটু?🙂',
         "addedNewAdmin": '[Admin] Added %1 Admin :\n\n%2',
         "removedAdmin": '[Admin] Remove %1 Admin:\n\n%2'
