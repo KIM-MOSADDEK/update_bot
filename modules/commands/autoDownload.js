@@ -61,13 +61,13 @@ module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
       let cp;
       if (bb.result.includes(".jpg")) {
         ex = ".jpg";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝚜𝚝𝚊𝚢 𝚠𝚒𝚝𝚑 𝙼𝚞𝚗 𝙱𝚘𝚝 <💘";
       } else if (bb.result.includes(".png")) {
         ex = ".png";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝚜𝚝𝚊𝚢 𝚠𝚒𝚝𝚑 𝙼𝚞𝚗 𝙱𝚘𝚝 <💘";
       } else if (bb.result.includes(".jpeg")) {
         ex = ".jpeg";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝚂𝚝𝚊𝚢 𝚠𝚒𝚝𝚑 𝙼𝚞𝚗 𝙱𝚘𝚝 <💘";
       } else {
         ex = ".mp4";
         cp = bb.cp;
@@ -94,7 +94,7 @@ module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
       fs.writeFileSync(filename, Buffer.from(response.data, "binary"));
       api.sendMessage(
         {
-          body: `[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 🥀`,
+          body: `[🤍] 𝚂𝚝𝚊𝚢 𝚠𝚒𝚝𝚑 𝙼𝚞𝚗 𝙱𝚘𝚝 🥀`,
           attachment: fs.createReadStream(filename),
         },
         event.threadID,
