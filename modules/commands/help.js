@@ -163,13 +163,13 @@ module.exports.run = async function ({ api, event, args, getText }) {
     const fs = require("fs-extra");
     const imgP = [];
     const img = [
-      "https://i.imgur.com/ruQ2pRn.jpg",
-      "https://i.imgur.com/HXHb0cB.jpg",
-      "https://i.imgur.com/ZJEI6KW.jpg",
-      "https://i.imgur.com/XGL57Wp.jpg",
-      "https://i.imgur.com/6OB00HJ.jpg",
-      "https://i.imgur.com/6vHaRZm.jpg",
-      "https://i.imgur.com/k6uE93k.jpg"
+      "https://i.ibb.co/pzcqqfb/ea364285-7652-403c-b1f0-c41bbc413911.jpg",
+      "https://i.ibb.co/XCxF2YD/337d452e-9893-40de-9a9a-80fd3b2be7ce.jpg",
+      "https://i.ibb.co/51c939W/9f3d41e8-6ad1-4f75-9e9b-5edf84e58827.jpg",
+      "https://i.ibb.co/dgrGr2z/886038f0-6368-464a-b53a-3537ff369774.jpg",
+      "https://i.ibb.co/VVzWyx2/37542351-dab5-463e-b32c-6bce871486d4.jpg",
+      "https://i.ibb.co/ZzSJqCS/c9cd7c9a-2425-4505-b03a-c2b98d6e067c.jpg",
+      "https://i.ibb.co/L9WgSfK/e71795d8-a67c-4e8f-96ec-8edad02c90aa.jpg"
     ];
     const path = __dirname + "/cache/menu.png";
     const rdimg = img[Math.floor(Math.random() * img.length)];
